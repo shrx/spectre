@@ -100,10 +100,9 @@ def transTo(p, q):
 def transPt(M, P):
     return pt(M[0]*P.x + M[1]*P.y + M[2], M[3]*P.x + M[4]*P.y + M[5])
 
-def drawPolygon(drawing, tile, T, f, s, w):
+def drawPolygon(drawing, T, f, s, w):
     """
     drawing: drawing to draw on
-    tile: Tile to draw
     T: transformation matrix
     f: tile fill color
     s: tile stroke color
@@ -128,14 +127,13 @@ class Tile:
         pts: list of Tile coordinate points
         label: Tile type used for coloring
         """
-        self.pts = pts
         self.quad = [pts[3], pts[5], pts[7], pts[11]]
         self.label = label
 
     def draw(self, drawing, tile_transformation=IDENTITY):
         global num_tiles
         num_tiles += 1
-        return drawPolygon(drawing, self.pts, tile_transformation, COLOR_MAP[self.label], "black", 0.1)
+        return drawPolygon(drawing, tile_transformation, COLOR_MAP[self.label], "black", 0.1)
 
 class MetaTile:
     def __init__(self, geometries=[], quad=[]):
