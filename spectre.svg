@@ -1,0 +1,5071 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="85.276917"
+   height="108.58851"
+   viewBox="-1000 -1000 85.276917 108.58851"
+   version="1.1"
+   id="svg1123"
+   sodipodi:docname="spectre.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1125"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.118"
+     inkscape:cx="29.661017"
+     inkscape:cy="88.983051"
+     inkscape:window-width="3840"
+     inkscape:window-height="2081"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1123" />
+  <defs
+     id="defs3">
+    <path
+       d="m 0,0 h 1 l 0.5,-0.8660254 0.8660254,0.5 v 1 h 1 L 3.8660254,1.5 3,2 2.1339746,1.5 l -0.5,0.8660254 h -1 -1 L -0.8660254,1.5 0,1 Z"
+       id="d0" />
+  </defs>
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-976.92372,-918.32658)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use5" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-975.42372,-919.19261)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use7" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-973.69167,-917.46056)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use9" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-973.69167,-919.19261)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use11" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-975.19167,-920.05863)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use13" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-974.5577,-922.42466)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use15" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-976.0577,-921.55863)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use17" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-980.15577,-920.92466)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use19" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-977.78975,-919.82658)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use21" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-987.25385,-920.29068)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use23" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-985.75385,-919.42466)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use25" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-986.38782,-917.05863)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use27" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-984.88782,-917.92466)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use29" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-984.88782,-919.65671)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use31" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-982.5218,-920.29068)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use33" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-984.0218,-921.15671)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use35" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-986.61987,-924.38876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use37" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-986.38782,-921.79068)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use39" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-990.88782,-911.46056)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use41" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-989.38782,-910.59453)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use43" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-990.0218,-908.2285)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use45" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-988.5218,-909.09453)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use47" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-988.5218,-910.82658)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use49" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-986.15577,-911.46056)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use51" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-987.65577,-912.32658)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use53" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-990.25385,-915.55863)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use55" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-990.0218,-912.96056)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use57" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-994.35192,-921.38876)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use59" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-994.35192,-919.65671)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use61" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-996.71795,-919.02273)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use63" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-995.21795,-918.15671)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use65" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-993.71795,-919.02273)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use67" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-991.9859,-917.29068)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use69" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-991.9859,-919.02273)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use71" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-990.4859,-922.88876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use73" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-992.61987,-921.38876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use75" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-987.4859,-929.35286)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use77" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-988.9859,-928.48683)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use79" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-990.71795,-930.21889)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use81" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-990.71795,-928.48683)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use83" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-989.21795,-927.62081)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use85" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-989.85192,-925.25478)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use87" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-988.35192,-926.12081)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use89" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-984.25385,-926.75478)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use91" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-986.61987,-927.85286)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use93" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-993.31603,-936.91504)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use95" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-994.81603,-936.04901)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use97" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-996.54808,-937.78106)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use99" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-996.54808,-936.04901)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use101" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-995.04808,-935.18299)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use103" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-995.68205,-932.81696)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use105" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-994.18205,-933.68299)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use107" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-990.08397,-934.31696)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use109" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-992.45,-935.41504)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use111" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-982.9859,-934.95094)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use113" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-984.4859,-935.81696)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use115" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-983.85192,-938.18299)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use117" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-985.35192,-937.31696)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use119" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-985.35192,-935.58491)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use121" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-987.71795,-934.95094)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use123" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-986.21795,-934.08491)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use125" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-983.61987,-930.85286)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use127" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-983.85192,-933.45094)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use129" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-981.88782,-929.12081)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use131" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-981.88782,-927.38876)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use133" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-982.75385,-925.88876)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use135" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-981.25385,-926.75478)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use137" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-979.5218,-925.02273)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use139" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-979.5218,-926.75478)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use141" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-978.0218,-930.62081)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use143" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-980.15577,-929.12081)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use145" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-948.12949,-935.29068)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use147" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-948.12949,-937.02273)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use149" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-945.76347,-937.65671)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use151" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-947.26347,-938.52273)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use153" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-948.76347,-937.65671)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use155" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-950.49552,-939.38876)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use157" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-950.49552,-937.65671)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use159" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-951.99552,-933.79068)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use161" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-949.86154,-935.29068)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use163" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-954.99552,-927.32658)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use165" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-953.49552,-928.19261)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use167" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-951.76347,-926.46056)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use169" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-951.76347,-928.19261)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use171" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-953.26347,-929.05863)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use173" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-952.62949,-931.42466)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use175" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-954.12949,-930.55863)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use177" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-958.22757,-929.92466)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use179" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-955.86154,-928.82658)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use181" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-949.16539,-919.7644)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use183" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-947.66539,-920.63043)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use185" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-945.93334,-918.89838)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use187" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-945.93334,-920.63043)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use189" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-947.43334,-921.49645)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use191" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-946.79936,-923.86248)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use193" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-948.29936,-922.99645)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use195" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-952.39744,-922.36248)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use197" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-950.03142,-921.2644)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use199" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-959.49552,-921.7285)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use201" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-957.99552,-920.86248)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use203" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-958.62949,-918.49645)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use205" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-957.12949,-919.36248)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use207" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-957.12949,-921.09453)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use209" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-954.76347,-921.7285)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use211" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-956.26347,-922.59453)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use213" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-958.86154,-925.82658)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use215" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-958.62949,-923.2285)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use217" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-962.95962,-931.65671)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use219" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-962.95962,-929.92466)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use221" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-965.32564,-929.29068)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use223" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-963.82564,-928.42466)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use225" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-962.32564,-929.29068)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use227" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-960.59359,-927.55863)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use229" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-960.59359,-929.29068)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use231" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-959.09359,-933.15671)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use233" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-961.22757,-931.65671)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use235" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-972.42372,-930.38876)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use237" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-972.42372,-928.65671)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use239" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-974.78975,-928.02273)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use241" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-973.28975,-927.15671)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use243" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-971.78975,-928.02273)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use245" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-970.0577,-926.29068)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use247" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-970.0577,-928.02273)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use249" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-968.5577,-931.88876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use251" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-970.69167,-930.38876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use253" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-965.5577,-938.35286)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use255" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-967.0577,-937.48683)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use257" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-968.78975,-939.21889)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use259" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-968.78975,-937.48683)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use261" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-967.28975,-936.62081)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use263" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-967.92372,-934.25478)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use265" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-966.42372,-935.12081)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use267" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-962.32564,-935.75478)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use269" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-964.69167,-936.85286)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use271" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-959.95962,-936.38876)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use273" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-958.45962,-935.52273)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use275" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-957.59359,-934.02273)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use277" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-957.59359,-935.75478)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use279" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-955.22757,-936.38876)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use281" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-956.72757,-937.25478)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use283" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-959.32564,-940.48683)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use285" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-959.09359,-937.88876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use287" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-933.00514,-911.97017)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use289" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-933.00514,-913.70223)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use291" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-930.63911,-914.3362)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use293" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-932.13911,-915.20223)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use295" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-933.63911,-914.3362)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use297" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-935.37116,-916.06825)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use299" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-935.37116,-914.3362)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use301" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-936.87116,-910.47017)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use303" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-934.73719,-911.97017)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use305" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-939.87116,-904.00607)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use307" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-938.37116,-904.8721)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use309" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-936.63911,-903.14005)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use311" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-936.63911,-904.8721)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use313" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-938.13911,-905.73812)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use315" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-937.50514,-908.10415)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use317" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-939.00514,-907.23812)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use319" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-943.10321,-906.60415)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use321" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-940.73719,-905.50607)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use323" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-934.04103,-896.44389)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use325" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-932.54103,-897.30992)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use327" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-930.80898,-895.57787)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use329" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-930.80898,-897.30992)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use331" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-932.30898,-898.17595)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use333" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-931.67501,-900.54197)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use335" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-933.17501,-899.67595)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use337" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-937.27309,-899.04197)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use339" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-934.90706,-897.94389)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use341" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-944.37116,-898.408)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use343" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-942.87116,-897.54197)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use345" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-943.50514,-895.17595)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use347" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-942.00514,-896.04197)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use349" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-942.00514,-897.77402)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use351" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-939.63911,-898.408)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use353" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-941.13911,-899.27402)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use355" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-943.73719,-902.50607)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use357" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-943.50514,-899.908)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use359" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-947.83526,-908.3362)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use361" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-947.83526,-906.60415)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use363" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-950.20129,-905.97017)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use365" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-948.70129,-905.10415)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use367" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-947.20129,-905.97017)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use369" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-945.46924,-904.23812)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use371" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-945.46924,-905.97017)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use373" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-943.96924,-909.8362)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use375" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-946.10321,-908.3362)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use377" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-957.29936,-907.06825)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use379" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-957.29936,-905.3362)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use381" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-959.66539,-904.70222)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use383" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-958.16539,-903.8362)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use385" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-956.66539,-904.70222)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use387" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-954.93334,-902.97017)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use389" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-954.93334,-904.70222)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use391" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-953.43334,-908.56825)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use393" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-955.56731,-907.06825)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use395" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-950.43334,-915.03235)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use397" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-951.93334,-914.16633)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use399" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-953.66539,-915.89838)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use401" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-953.66539,-914.16633)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use403" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-952.16539,-913.3003)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use405" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-952.79936,-910.93428)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use407" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-951.29936,-911.8003)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use409" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-947.20129,-912.43428)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use411" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-949.56731,-913.53235)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use413" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-944.83526,-913.06825)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use415" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-943.33526,-912.20223)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use417" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-942.46924,-910.70223)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use419" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-942.46924,-912.43428)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use421" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-940.10321,-913.06825)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use423" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-941.60321,-913.93428)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use425" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-944.20129,-917.16633)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use427" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-943.96924,-914.56825)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use429" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-933.29936,-945.38876)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use431" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-934.79936,-946.25478)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use433" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-934.16539,-948.62081)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use435" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-935.66539,-947.75478)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use437" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-935.66539,-946.02273)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use439" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-938.03142,-945.38876)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use441" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-936.53142,-944.52273)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use443" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-933.93334,-941.29068)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use445" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-934.16539,-943.88876)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use447" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-929.83526,-935.46056)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use449" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-929.83526,-937.19261)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use451" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-927.46924,-937.82658)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use453" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-928.96924,-938.69261)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use455" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-930.46924,-937.82658)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use457" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-932.20129,-939.55863)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use459" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-932.20129,-937.82658)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use461" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-933.70129,-933.96056)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use463" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-931.56731,-935.46056)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use465" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-920.37116,-936.7285)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use467" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-920.37116,-938.46056)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use469" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-918.00514,-939.09453)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use471" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-919.50514,-939.96056)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use473" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-921.00514,-939.09453)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use475" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-922.73719,-940.82658)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use477" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-922.73719,-939.09453)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use479" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-924.23719,-935.2285)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use481" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-922.10321,-936.7285)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use483" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-927.23719,-928.7644)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use485" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-925.73719,-929.63043)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use487" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-924.00514,-927.89838)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use489" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-924.00514,-929.63043)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use491" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-925.50514,-930.49645)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use493" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-924.87116,-932.86248)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use495" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-926.37116,-931.99645)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use497" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-930.46924,-931.36248)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use499" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-928.10321,-930.2644)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use501" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-937.56731,-930.7285)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use503" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-936.06731,-929.86248)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use505" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-936.70129,-927.49645)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use507" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-935.20129,-928.36248)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use509" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-935.20129,-930.09453)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use511" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-932.83526,-930.7285)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use513" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-934.33526,-931.59453)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use515" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-936.93334,-934.82658)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use517" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-936.70129,-932.2285)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use519" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-941.20129,-921.89838)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use521" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-939.70129,-921.03235)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use523" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-940.33526,-918.66633)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use525" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-938.83526,-919.53235)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use527" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-938.83526,-921.2644)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use529" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-936.46924,-921.89838)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use531" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-937.96924,-922.7644)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use533" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-940.56731,-925.99645)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use535" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-940.33526,-923.39838)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use537" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-944.66539,-931.82658)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use539" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-944.66539,-930.09453)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use541" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-947.03142,-929.46056)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use543" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-945.53142,-928.59453)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use545" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-944.03142,-929.46056)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use547" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-942.29936,-927.7285)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use549" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-942.29936,-929.46056)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use551" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-940.79936,-933.32658)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use553" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-942.93334,-931.82658)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use555" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-940.16539,-935.69261)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use557" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-938.66539,-936.55863)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use559" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-936.93334,-936.55863)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use561" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-938.43334,-937.42466)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use563" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-937.79936,-939.79068)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use565" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-939.29936,-938.92466)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use567" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-943.39744,-938.29068)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use569" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-941.03142,-937.19261)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use571" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-962.38782,-961.84324)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use573" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-963.88782,-960.97722)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use575" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-965.61987,-962.70927)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use577" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-965.61987,-960.97722)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use579" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-964.11987,-960.11119)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use581" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-964.75385,-957.74516)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use583" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-963.25385,-958.61119)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use585" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-959.15577,-959.24516)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use587" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-961.5218,-960.34324)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use589" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-952.0577,-959.87914)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use591" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-953.5577,-960.74516)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use593" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-952.92372,-963.11119)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use595" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-954.42372,-962.24516)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use597" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-954.42372,-960.51311)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use599" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-956.78975,-959.87914)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use601" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-955.28975,-959.01311)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use603" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-952.69167,-955.78106)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use605" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-952.92372,-958.37914)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use607" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-948.42372,-968.70927)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use609" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-949.92372,-969.57529)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use611" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-949.28975,-971.94132)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use613" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-950.78975,-971.07529)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use615" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-950.78975,-969.34324)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use617" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-953.15577,-968.70927)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use619" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-951.65577,-967.84324)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use621" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-949.0577,-964.61119)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use623" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-949.28975,-967.20927)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use625" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-944.95962,-958.78106)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use627" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-944.95962,-960.51311)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use629" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-942.59359,-961.14709)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use631" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-944.09359,-962.01311)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use633" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-945.59359,-961.14709)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use635" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-947.32564,-962.87914)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use637" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-947.32564,-961.14709)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use639" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-948.82564,-957.28106)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use641" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-946.69167,-958.78106)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use643" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-951.82564,-950.81696)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use645" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-950.32564,-951.68299)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use647" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-948.59359,-949.95094)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use649" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-948.59359,-951.68299)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use651" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-950.09359,-952.54901)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use653" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-949.45962,-954.91504)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use655" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-950.95962,-954.04901)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use657" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-955.0577,-953.41504)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use659" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-952.69167,-952.31696)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use661" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-945.99552,-943.25478)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use663" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-944.49552,-944.12081)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use665" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-942.76347,-942.38876)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use667" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-942.76347,-944.12081)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use669" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-944.26347,-944.98683)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use671" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-943.62949,-947.35286)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use673" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-945.12949,-946.48683)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use675" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-949.22757,-945.85286)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use677" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-946.86154,-944.75478)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use679" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-956.32564,-945.21889)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use681" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-954.82564,-944.35286)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use683" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-955.45962,-941.98683)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use685" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-953.95962,-942.85286)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use687" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-953.95962,-944.58491)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use689" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-951.59359,-945.21889)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use691" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-953.09359,-946.08491)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use693" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-955.69167,-949.31696)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use695" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-955.45962,-946.71889)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use697" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-957.42372,-951.04901)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use699" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-957.42372,-952.78106)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use701" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-956.5577,-954.28106)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use703" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-958.0577,-953.41504)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use705" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-959.78975,-955.14709)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use707" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-959.78975,-953.41504)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use709" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-961.28975,-949.54901)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use711" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-959.15577,-951.04901)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use713" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-949.75385,-986.60157)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use715" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-951.25385,-985.73555)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use717" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-952.9859,-987.4676)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use719" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-952.9859,-985.73555)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use721" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-951.4859,-984.86952)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use723" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-952.11987,-982.5035)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use725" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-950.61987,-983.36952)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use727" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-946.5218,-984.0035)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use729" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-948.88782,-985.10157)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use731" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-939.42372,-984.63747)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use733" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-940.92372,-985.5035)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use735" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-940.28975,-987.86952)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use737" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-941.78975,-987.0035)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use739" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-941.78975,-985.27144)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use741" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-944.15577,-984.63747)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use743" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-942.65577,-983.77144)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use745" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-940.0577,-980.53939)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use747" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-940.28975,-983.13747)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use749" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-935.78975,-993.4676)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use751" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-937.28975,-994.33362)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use753" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-936.65577,-996.69965)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use755" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-938.15577,-995.83362)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use757" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-938.15577,-994.10157)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use759" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-940.5218,-993.4676)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use761" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-939.0218,-992.60157)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use763" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-936.42372,-989.36952)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use765" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-936.65577,-991.9676)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use767" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-932.32564,-983.53939)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use769" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-932.32564,-985.27144)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use771" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-929.95962,-985.90542)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use773" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-931.45962,-986.77144)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use775" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-932.95962,-985.90542)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use777" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-934.69167,-987.63747)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use779" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-934.69167,-985.90542)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use781" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-936.19167,-982.03939)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use783" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-934.0577,-983.53939)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use785" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-939.19167,-975.57529)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use787" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-937.69167,-976.44132)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use789" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-935.95962,-974.70927)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use791" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-935.95962,-976.44132)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use793" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-937.45962,-977.30734)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use795" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-936.82564,-979.67337)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use797" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-938.32564,-978.80734)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use799" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-942.42372,-978.17337)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use801" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-940.0577,-977.07529)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use803" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-933.36154,-968.01311)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use805" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-931.86154,-968.87914)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use807" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-930.12949,-967.14709)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use809" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-930.12949,-968.87914)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use811" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-931.62949,-969.74516)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use813" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-930.99552,-972.11119)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use815" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-932.49552,-971.24516)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use817" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-936.59359,-970.61119)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use819" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-934.22757,-969.51311)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use821" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-943.69167,-969.97722)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use823" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-942.19167,-969.11119)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use825" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-942.82564,-966.74516)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use827" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-941.32564,-967.61119)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use829" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-941.32564,-969.34324)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use831" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-938.95962,-969.97722)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use833" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-940.45962,-970.84324)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use835" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-943.0577,-974.07529)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use837" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-942.82564,-971.47722)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use839" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-944.78975,-975.80734)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use841" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-944.78975,-977.53939)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use843" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-943.92372,-979.03939)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use845" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-945.42372,-978.17337)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use847" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-947.15577,-979.90542)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use849" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-947.15577,-978.17337)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use851" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-948.65577,-974.30734)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use853" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-946.5218,-975.80734)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use855" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-978.54808,-969.63747)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use857" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-978.54808,-967.90542)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use859" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-980.9141,-967.27144)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use861" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-979.4141,-966.40542)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use863" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-977.9141,-967.27144)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use865" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-976.18205,-965.53939)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use867" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-976.18205,-967.27144)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use869" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-974.68205,-971.13747)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use871" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-976.81603,-969.63747)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use873" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-971.68205,-977.60157)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use875" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-973.18205,-976.73555)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use877" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-974.9141,-978.4676)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use879" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-974.9141,-976.73555)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use881" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-973.4141,-975.86952)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use883" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-974.04808,-973.5035)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use885" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-972.54808,-974.36952)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use887" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-968.45,-975.0035)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use889" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-970.81603,-976.10157)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use891" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-977.51218,-985.16375)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use893" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-979.01218,-984.29772)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use895" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-980.74423,-986.02977)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use897" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-980.74423,-984.29772)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use899" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-979.24423,-983.4317)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use901" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-979.8782,-981.06567)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use903" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-978.3782,-981.9317)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use905" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-974.28013,-982.56567)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use907" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,-0.5,-0.5,0.8660254,-976.64615,-983.66375)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use909" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-967.18205,-983.19965)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use911" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-968.68205,-984.06567)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use913" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-968.04808,-986.4317)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use915" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-969.54808,-985.56567)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use917" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-969.54808,-983.83362)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use919" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-971.9141,-983.19965)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use921" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-970.4141,-982.33362)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use923" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-967.81603,-979.10157)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use925" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-968.04808,-981.69965)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use927" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-963.71795,-973.27144)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use929" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-963.71795,-975.0035)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use931" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-961.35192,-975.63747)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use933" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-962.85192,-976.5035)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use935" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-964.35192,-975.63747)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use937" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-966.08397,-977.36952)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use939" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-966.08397,-975.63747)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use941" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-967.58397,-971.77144)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use943" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-965.45,-973.27144)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use945" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-954.25385,-974.53939)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use947" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-954.25385,-976.27144)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use949" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-951.88782,-976.90542)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use951" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-953.38782,-977.77144)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use953" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-954.88782,-976.90542)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use955" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-956.61987,-978.63747)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use957" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-956.61987,-976.90542)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use959" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-958.11987,-973.03939)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use961" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-955.9859,-974.53939)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use963" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-961.11987,-966.57529)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use965" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-959.61987,-967.44132)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use967" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-957.88782,-965.70927)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use969" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-957.88782,-967.44132)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use971" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-959.38782,-968.30734)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use973" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-958.75385,-970.67337)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use975" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-960.25385,-969.80734)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use977" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-964.35192,-969.17337)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use979" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-961.9859,-968.07529)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use981" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-966.71795,-968.53939)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use983" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-968.21795,-969.40542)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use985" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-969.08397,-970.90542)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use987" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-969.08397,-969.17337)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use989" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-971.45,-968.53939)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use991" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-969.95,-967.67337)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use993" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-967.35192,-964.44132)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use995" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-967.58397,-967.03939)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use997" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-970.35192,-959.70927)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use999" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-971.85192,-960.57529)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1001" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-971.21795,-962.94132)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1003" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-972.71795,-962.07529)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1005" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-972.71795,-960.34324)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1007" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-975.08397,-959.70927)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1009" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-973.58397,-958.84324)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1011" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-970.9859,-955.61119)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1013" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,-1,-1,0,-971.21795,-958.20927)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1015" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-966.88782,-949.78106)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1017" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-966.88782,-951.51311)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1019" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-964.5218,-952.14709)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1021" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-966.0218,-953.01311)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1023" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-967.5218,-952.14709)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1025" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-969.25385,-953.87914)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1027" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-969.25385,-952.14709)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1029" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-970.75385,-948.28106)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1031" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,-0.5,-0.5,-0.8660254,-968.61987,-949.78106)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1033" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-964.28975,-943.08491)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1035" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-962.78975,-943.95094)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1037" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-961.0577,-942.21889)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1039" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-961.0577,-943.95094)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1041" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-962.5577,-944.81696)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1043" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-961.92372,-947.18299)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1045" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-963.42372,-946.31696)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1047" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-967.5218,-945.68299)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1049" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-965.15577,-944.58491)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1051" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-974.61987,-945.04901)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1053" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-973.11987,-944.18299)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1055" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-973.75385,-941.81696)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1057" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-972.25385,-942.68299)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1059" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-972.25385,-944.41504)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1061" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-969.88782,-945.04901)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1063" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-971.38782,-945.91504)"
+     fill="#ffa07a"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1065" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-973.9859,-949.14709)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1067" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-973.75385,-946.54901)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1069" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-978.25385,-936.21889)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1071" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-976.75385,-935.35286)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1073" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-977.38782,-932.98683)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1075" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-975.88782,-933.85286)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1077" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-975.88782,-935.58491)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1079" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-973.5218,-936.21889)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1081" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-975.0218,-937.08491)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1083" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-977.61987,-940.31696)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1085" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0,1,1,0,-977.38782,-937.71889)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1087" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-981.71795,-946.14709)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1089" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-981.71795,-944.41504)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1091" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,-0.8660254,-0.8660254,0.5,-984.08397,-943.78106)"
+     fill="#00ffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1093" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-982.58397,-942.91504)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1095" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-981.08397,-943.78106)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1097" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-979.35192,-942.04901)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1099" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-979.35192,-943.78106)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1101" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-977.85192,-947.64709)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1103" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.8660254,0.5,0.5,0.8660254,-979.9859,-946.14709)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1105" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-1,0,0,1,-977.21795,-950.01311)"
+     fill="#87cefa"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1107" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(-0.5,0.8660254,0.8660254,0.5,-975.71795,-950.87914)"
+     fill="#dcdcdc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1109" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-973.9859,-950.87914)"
+     fill="#ffbfbf"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1111" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-975.4859,-951.74516)"
+     fill="#f5f5dc"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1113" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(1,0,0,-1,-974.85192,-954.11119)"
+     fill="#fff200"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1115" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,-0.8660254,-0.8660254,-0.5,-976.35192,-953.24516)"
+     fill="#00ff00"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1117" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.5,0.8660254,0.8660254,-0.5,-980.45,-952.61119)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1119" />
+  <use
+     xlink:href="#d0"
+     x="0"
+     y="0"
+     transform="matrix(0.8660254,0.5,0.5,-0.8660254,-978.08397,-951.51311)"
+     fill="#ffffff"
+     stroke="#000000"
+     stroke-width="0.1"
+     id="use1121" />
+</svg>
