@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import numpy as np
 from time import time
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 import drawsvg
 
@@ -103,22 +103,20 @@ def flattenPts(lst): # drowsvg
 SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in SPECTRE_POINTS]), stroke="black", stroke_width=0.5,close=True) # drowsvg
 Mystic_SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in Mystic_SPECTRE_POINTS]), stroke="black",   stroke_width=0.5, close=True) # drowsvg
 num_tiles = 0 # drowswvg
-def drawPolygon(drawing, T, label, f, s, w): #drowsvg
+def drawPolygon(drawing, T, label): #drowsvg
     """
     drawing: drawing to draw on
     T: transformation matrix
     label: label of shape type
-    f: tile fill color
-    s: tile stroke color
-    w: tile stroke width
     """
     global num_tiles
     num_tiles += 1
 
-    fill = f"rgb({int(round(f[0]* 255, 0))}, {int(round(f[1]* 255,0))}, {int(round(f[2]* 255,0))})"
-    stroke_f = s
-    stroke_w = w if s else 0
+    fill = f"rgb({int(round(COLOR_MAP[label][0]* 255, 0))}, {int(round(COLOR_MAP[label][1]* 255,0))}, {int(round(COLOR_MAP[label][2]* 255,0))})"
+    stroke_f = "gray" # tile stroke color
+    stroke_w = 0.1 if (fill[0] != 0) | (fill[1] != 0) | (fill[2] != 0) else 0 # tile stroke width
     shape = Mystic_SPECTRE_SHAPE if label == "Gamma2" else SPECTRE_SHAPE # geometric points used.
+    # print(f"transform-matrix,{T[0,0]},{T[1,0]},{T[0,1]},{T[1,1]},{T[0,2]},{T[1,2]}")
 
     drawing.append(drawsvg.Use(
         shape,
@@ -144,12 +142,12 @@ class Tile:
         self.label = label
         self.quad = SPECTRE_QUAD.copy()
 
-    def draw(self, polygons, tile_transformation=IDENTITY.copy()):
-        vertices = (SPECTRE_POINTS if self.label != "Gamma2" else Mystic_SPECTRE_POINTS).dot(tile_transformation[:,:2].T) + tile_transformation[:,2]
-        polygons.append((vertices, self.label))
+    # def draw(self, polygons, tile_transformation=IDENTITY.copy()):
+    #     vertices = (SPECTRE_POINTS if self.label != "Gamma2" else Mystic_SPECTRE_POINTS).dot(tile_transformation[:,:2].T) + tile_transformation[:,2]
+    #     polygons.append((vertices, self.label))
 
     def drawPolygon(self, drawing, tile_transformation=IDENTITY):
-        return drawPolygon(drawing, tile_transformation, self.label, COLOR_MAP[self.label], "black", 0.1)
+        return drawPolygon(drawing, tile_transformation, self.label)
 
 class MetaTile:
     def __init__(self, tiles=[], transformations=[], quad=SPECTRE_QUAD.copy()):
@@ -162,20 +160,20 @@ class MetaTile:
         self.transformations = transformations
         self.quad = quad
 
-    def draw(self, polygons, transformation=IDENTITY.copy()):
-        """
-        recursively expand MetaTiles down to Tiles and draw those
-        """
-        for tile, trsf in zip(self.tiles, self.transformations):
-           tile.draw(polygons, mul(transformation, trsf))
+    # def draw(self, polygons, transformation=IDENTITY.copy()):
+    #     """
+    #     recursively expand MetaTiles down to Tiles and draw those
+    #     """
+    #     for tile, trsf in zip(self.tiles, self.transformations):
+    #        tile.draw(polygons, mul(transformation, trsf))
 
-    def drawPolygon(self, drawing, metatile_transformation=IDENTITY.copy()):
+    def drawPolygon(self, drawing, transformation=IDENTITY.copy()):
         """
         recursively expand MetaTiles down to Tiles and draw those
         """
         # TODO: parallelize?
         for tile, trsf in zip(self.tiles, self.transformations):
-           tile.drawPolygon(drawing,  mul(metatile_transformation, trsf))
+           tile.drawPolygon(drawing,  mul(transformation, trsf))
                             
 def buildSpectreBase():
     ttrans = np.array([[1,0,SPECTRE_POINTS[8,0]],
@@ -190,6 +188,8 @@ def buildSpectreBase():
                                      quad=SPECTRE_QUAD.copy())
     return tiles
 
+transformation_min = 0.0
+transformation_max = 0.0
 def buildSupertiles(input_tiles):
     """
     iteratively build on current system of tiles
@@ -223,6 +223,9 @@ def buildSupertiles(input_tiles):
 
     R = np.array([[-1,0,0],[ 0,1,0]], 'float32')
     transformations = [ mul(R, trsf) for trsf in transformations ]
+    global transformation_min, transformation_max
+    transformation_min = np.min(transformations)
+    transformation_max = np.max(transformations)
 
     # Now build the actual supertiles, labeling appropriately.
     super_quad = quad[[2,1,2,1],:]
@@ -249,38 +252,42 @@ start = time()
 tiles = buildSpectreBase()
 for _ in range(N_ITERATIONS):
     tiles = buildSupertiles(tiles)
+transformation_min = int(np.ceil(transformation_min))
+transformation_max = int(np.floor(transformation_max))
 time1 = time()-start
 print(f"supertiling loop took {round(time1, 4)} seconds")
 
-start = time()
-polygons = []
-tiles["Delta"].draw(polygons)
-time2 = time()-start
-print(f"matplotlib.pyplot: tile recursion loop took {round(time2, 4)} seconds, generated {len(polygons)} tiles")
+# start = time()
+# polygons = []
+# tiles["Delta"].draw(polygons)
+# time2 = time()-start
+# print(f"matplotlib.pyplot: tile recursion loop took {round(time2, 4)} seconds, generated {len(polygons)} tiles")
+
+# start = time()
+# plt.figure(figsize=(8, 8))
+# plt.axis('equal')
+# for pts,label in polygons:
+#     # plt.text((pts[1,0] + pts[7,0])/2, (pts[1,1] + pts[7,1])/2, label, fontsize=8, color='gray')
+#     plt.fill(pts[:,0],pts[:,1],facecolor=COLOR_MAP[label])
+#     plt.plot(pts[:,0],pts[:,1],color='gray',linewidth=0.2)
+
+# saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{len(polygons)}pts.svg"
+# print("matplotlib.pyplot: file save to " + saveFileName)
+# plt.savefig(saveFileName)
+# time3 = time()-start
+# print(f"matplotlib.pyplot SVG drawing took {round(time3, 4)} seconds")
+# print(f"matplotlib.pyplot total processing time {round(time1+time2+time3, 4)} seconds, {round(1000000*(time1+time2+time3)/len(polygons), 4)} μs/tile")
 
 start = time()
-plt.figure(figsize=(8, 8))
-plt.axis('equal')
-for pts,label in polygons:
-    # plt.text((pts[1,0] + pts[7,0])/2, (pts[1,1] + pts[7,1])/2, label, fontsize=8, color='gray')
-    plt.fill(pts[:,0],pts[:,1],facecolor=COLOR_MAP[label])
-    plt.plot(pts[:,0],pts[:,1],color='gray',linewidth=0.2)
-
-saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{len(polygons)}pts.svg"
-print("matplotlib.pyplot: file save to " + saveFileName)
-plt.savefig(saveFileName)
-time3 = time()-start
-print(f"matplotlib.pyplot SVG drawing took {round(time3, 4)} seconds")
-print(f"matplotlib.pyplot total processing time {round(time1+time2+time3, 4)} seconds, {round(1000000*(time1+time2+time3)/len(polygons), 4)} μs/tile")
-
-start = time()
-d = drawsvg.Drawing(8000, 8000, origin="center") # @TODO: ajust to polygons X-Y min and max. 
+d = drawsvg.Drawing(transformation_max - transformation_min,
+                    transformation_max - transformation_min,
+                     origin="center") # @TODO: ajust to polygons X-Y min and max. 
 tiles["Delta"].drawPolygon(d) # updates num_tiles
 saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles}useRef.svg"
 d.save_svg(saveFileName)
 time4 = time()-start
 print(f"drowsvg: SVG drawing took {round(time4, 4)} seconds, generated {num_tiles} tiles")
 print("drowsvg: drawPolygon save to " + saveFileName)
-print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1000000*(time1+time4)/len(polygons), 4)} μs/tile")
+print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1000000*(time1+time4)/num_tiles, 4)} μs/tile")
 
-plt.show()
+# plt.show()
