@@ -15,5 +15,5 @@ Code ported from JavaScript from the web app [1] provided [2] by the authors of 
 
     * Made it possible to compare the drawing speed between the path drawing process of all polygons by mathplotlib and the two polygon reference processes via transform by drowsvg.
     * Made it possible to draw spectre tile(edge_a, edge_b) at any ratio.
-    
-       ![Rendered tiling ratio sqrt(3)  tile(7.3, 12.7)](./spectre_tile7.3-12.7_3-559useRef.svg)
+
+![Rendered tiling ratio sqrt(3)  tile(7.3, 12.7)](./spectre_tile7.3-12.7_3-559useRef.svg)
