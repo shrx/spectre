@@ -6,8 +6,8 @@ from time import time
 #* increase this number for larger tilings.
 N_ITERATIONS = 4
 #* shape Edge_ration tile(Edge_a, Edge_b)
-Edge_a = 10 # 20.0 / (np.sqrt(3) + 1.0)
-Edge_b = 10 # 20.0 - Edge_a
+Edge_a = 10.0 # 20.0 / (np.sqrt(3) + 1.0)
+Edge_b = 10.0 # 20.0 - Edge_a
 ## end of configilation.
 
 TILE_NAMES = ["Gamma", "Delta", "Theta", "Lambda", "Xi", "Pi", "Sigma", "Phi", "Psi"]
@@ -62,13 +62,13 @@ class Tile:
         label: Tile type used for shapes coloring
         """
         self.label = label
-        self.quad = SPECTRE_QUAD.copy()
+        self.quad = SPECTRE_QUAD
 
     def drawPolygon(self, drawer, tile_transformation=IDENTITY):
         return drawer(tile_transformation, self.label)
 
 class MetaTile:
-    def __init__(self, tiles=[], transformations=[], quad=SPECTRE_QUAD.copy()):
+    def __init__(self, tiles=[], transformations=[], quad=SPECTRE_QUAD):
         """
         tiles: list of Tiles(No points)
         transformations: list of transformation matrices
@@ -78,7 +78,7 @@ class MetaTile:
         self.transformations = transformations
         self.quad = quad
 
-    def drawPolygon(self, drawer, transformation=IDENTITY.copy()):
+    def drawPolygon(self, drawer, transformation=IDENTITY):
         """
         recursively expand MetaTiles down to Tiles and draw those
         """
@@ -159,6 +159,9 @@ def buildSupertiles(input_tiles):
                      quad=super_quad)
     return tiles
 
+#### main process ####
+# global N_ITERATIONS ,Edge_a,Edge_b
+
 start = time()
 tiles = buildSpectreBase()
 for _ in range(N_ITERATIONS):
@@ -231,11 +234,14 @@ COLOR_MAP = {
 ## draw Polygons Svg by drawsvg #####
 import drawsvg
 
+start = time()
+
 def flattenPts(lst): # drowsvg
     return [item for sublist in lst for item in sublist] # drowsvg
 
 SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in SPECTRE_POINTS]), stroke="black", stroke_width=0.5,close=True) # drowsvg
 Mystic_SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in Mystic_SPECTRE_POINTS]), stroke="black",   stroke_width=0.5, close=True) # drowsvg
+
 svgContens = drawsvg.Drawing(transformation_max - transformation_min,
                     transformation_max - transformation_min,
                      origin="center") # @TODO: ajust to polygons X-Y min and max. 
@@ -263,7 +269,6 @@ def drawPolygon2Svg(T, label): #drowsvg
         stroke=stroke_f,
         stroke_width=stroke_w))
 
-start = time()
 tiles["Delta"].drawPolygon(drawPolygon2Svg) # updates num_tiles
 saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles}useRef.svg"
 svgContens.save_svg(saveFileName)
@@ -272,7 +277,7 @@ print(f"drowsvg: SVG drawing took {round(time4, 4)} seconds, generated {num_tile
 print("drowsvg: drawPolygon save to " + saveFileName)
 print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1000000*(time1+time4)/num_tiles, 4)} μs/tile")
 
-exit(0)
+# exit(0)
 
 ## draw Polygons Svg by matplotlib #####
 # import matplotlib.pyplot as plt
