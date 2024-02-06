@@ -45,8 +45,43 @@ Mystic_SPECTRE_POINTS = get_spectre_points(Edge_b, Edge_a) # tile(Edge_b, Edge_a
 SPECTRE_QUAD = SPECTRE_POINTS[[3,5,7,11],:]
 
 PI = np.pi
-IDENTITY = np.array([[1,0,0],
-                     [0,1,0]], 'float32')
+IDENTITY = np.array([[1,0,0],[0,1,0]], 'float32') # == trot(0)
+
+# Rotation matrix
+trot_memo = {
+     0:  np.array([[1.0, 0.0, 0.0],[0.0, 1.0, 0.0]]),
+     30: np.array([[np.sqrt(3)/2, -0.5, 0.0], [0.5, np.sqrt(3)/2, 0.0]]),
+     60: np.array([[0.5, -np.sqrt(3)/2, 0.0], [np.sqrt(3)/2, 0.5, 0.0]]),
+     120: np.array([[-0.5, -np.sqrt(3)/2, 0.0], [np.sqrt(3)/2, -0.5, 0.0]]),
+     180: np.array([[-1.0, 0.0, 0.0], [0.0, -1.0, 0.0]]),
+     240:  np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
+     -120: np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
+}
+def trot(degAngle):
+    """
+    degAngle: integer degree angle 
+    """
+    global trot_memo
+    if degAngle not in trot_memo:
+        ang = np.deg2rad(degAngle)
+        c = np.cos(ang)
+        s = np.sin(ang)
+        trot_memo[degAngle] = np.array([[c, -s, 0],[s, c, 0]])
+        print(f"trot_memo[{degAngle}]={trot_memo[degAngle]}")
+    return trot_memo[degAngle].copy()
+
+trot_replace_arr = np.array([-1, -0.8660254037844386, -0.5, 0, 0.5, 0.8660254037844386, 1])
+def trot_refine(trsf):
+    """
+    trsf: transformation matrix
+    """
+    idx = np.abs(np.subtract.outer(trsf[:2, :2].flatten(), trot_replace_arr)).argmin(1)
+    trsf[:2, :2] = trot_replace_arr[idx].reshape(trsf[:2, :2].shape)
+    return trsf
+
+# Matrix * point
+def transPt(trsf, quad):
+    return  (trsf[:,:2].dot(quad) + trsf[:,2])
 
 # Matrix * point
 def mul(A, B):
@@ -84,18 +119,19 @@ class MetaTile:
         """
         # TODO: parallelize?
         for tile, trsf in zip(self.tiles, self.transformations):
-           tile.drawPolygon(drawer,  mul(transformation, trsf))
+           tile.drawPolygon(drawer,  trot_refine(mul(transformation, trsf)))
                             
 def buildSpectreBase():
-    ttrans = np.array([[1,0,SPECTRE_POINTS[8,0]],
-                       [0,1,SPECTRE_POINTS[8,1]]])
-    trot = np.array([[np.cos(PI/6),-np.sin(PI/6),0.],
-                     [np.sin(PI/6), np.cos(PI/6),0.]],'float32')
-    trsf = mul(ttrans, trot)
     tiles = {label: (Tile(label) ) for label in TILE_NAMES if label != "Gamma"}
     # special rule for Mystic == Gamma == Gamma1 + Gamma2
-    tiles["Gamma"] = MetaTile(tiles=[Tile("Gamma1"),Tile("Gamma2")],
-                                     transformations=[IDENTITY.copy(),trsf],
+    tiles["Gamma"] = MetaTile(tiles=[Tile("Gamma1"),
+                                     Tile("Gamma2")],
+                                     transformations=[
+                                         IDENTITY.copy(),
+                                         mul(np.array([
+                                             [1,0,SPECTRE_POINTS[8,0]],
+                                             [0,1,SPECTRE_POINTS[8,1]]
+                                         ]), trot(30))],
                                      quad=SPECTRE_QUAD.copy())
     return tiles
 
@@ -112,51 +148,51 @@ def buildSupertiles(input_tiles):
 
     transformations = [IDENTITY.copy()]
     total_angle = 0
-    trot = IDENTITY.copy()
+    rotation = IDENTITY.copy() # trot(total_angle)
     transformed_quad = quad
-    for _angle, _from, _to in ((   PI/3, 3, 1),
-                               (     0., 2, 0),
-                               (   PI/3, 3, 1),
-                               (   PI/3, 3, 1),
-                               (     0., 2, 0),
-                               (   PI/3, 3, 1),
-                               (-2*PI/3, 3, 3)):
+    for _angle, _from, _to in ((  60, 3, 1),
+                               (   0, 2, 0),
+                               (  60, 3, 1),
+                               (  60, 3, 1),
+                               (   0, 2, 0),
+                               (  60, 3, 1),
+                               (-120, 3, 3)):
         if _angle != 0:
             total_angle += _angle
-            trot = np.array([[1, 0,0],[0,1,0]])*np.cos(total_angle) \
-                  +np.array([[0,-1,0],[1,0,0]])*np.sin(total_angle)
-            transformed_quad = quad.dot(trot[:,:2].T) # + trot[:,2]
-        last_trsf = transformations[-1]
+            rotation = trot(total_angle)
+            transformed_quad = quad.dot(rotation[:,:2].T) # + trot[:,2]
         ttrans = IDENTITY.copy()
-        ttrans[:,2] = last_trsf[:,:2].dot(quad[_from,:]) + last_trsf[:,2] \
-                     -transformed_quad[_to,:]
-        transformations.append(mul(ttrans, trot))
+        ttrans[:,2] = transPt(transformations[-1], quad[_from]) - transformed_quad[_to,:]
+        transformations.append(mul(ttrans, rotation))
 
     R = np.array([[-1,0,0],[ 0,1,0]], 'float32')
-    transformations = [ mul(R, trsf) for trsf in transformations ]
+    transformations = [ trot_refine(mul(R, trsf)) for trsf in transformations ]
     global transformation_min, transformation_max
     transformation_min = np.min(transformations)
     transformation_max = np.max(transformations)
 
     # Now build the actual supertiles, labeling appropriately.
-    super_quad = quad[[2,1,2,1],:]
-    for i,itrsf in enumerate([6,5,3,0]):
-        trsf = transformations[itrsf]
-        super_quad[i,:] = trsf[:,:2].dot(super_quad[i,:]) + trsf[:,2]
+    super_quad =  np.array([
+        transPt(transformations[6], quad[2]),
+        transPt(transformations[5], quad[1]),
+        transPt(transformations[3], quad[2]),
+        transPt(transformations[0], quad[1]) 
+    ])
 
-    tiles = {}
-    for label, substitutions in (("Gamma",  ("Pi",  "Delta", None,  "Theta", "Sigma", "Xi",  "Phi",    "Gamma")),
-                                 ("Delta",  ("Xi",  "Delta", "Xi",  "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
-                                 ("Theta",  ("Psi", "Delta", "Pi",  "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
-                                 ("Lambda", ("Psi", "Delta", "Xi",  "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
-                                 ("Xi",     ("Psi", "Delta", "Pi",  "Phi",   "Sigma", "Psi", "Phi",    "Gamma")),
-                                 ("Pi",     ("Psi", "Delta", "Xi",  "Phi",   "Sigma", "Psi", "Phi",    "Gamma")),
-                                 ("Sigma",  ("Xi",  "Delta", "Xi",  "Phi",   "Sigma", "Pi",  "Lambda", "Gamma")),
-                                 ("Phi",    ("Psi", "Delta", "Psi", "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
-                                 ("Psi",    ("Psi", "Delta", "Psi", "Phi",   "Sigma", "Psi", "Phi",    "Gamma"))):
-        tiles[label] = MetaTile(tiles=[input_tiles[subst] for subst in substitutions if subst],
+    tiles = {label: MetaTile(tiles=[input_tiles[subst] for subst in substitutions if subst],
                      transformations=[trsf for subst, trsf in zip(substitutions, transformations) if subst],
-                     quad=super_quad)
+                     quad=super_quad
+                     ) for label, substitutions in (
+                         ("Gamma",  ("Pi",  "Delta", None,  "Theta", "Sigma", "Xi",  "Phi",    "Gamma")),
+                         ("Delta",  ("Xi",  "Delta", "Xi",  "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
+                         ("Theta",  ("Psi", "Delta", "Pi",  "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
+                         ("Lambda", ("Psi", "Delta", "Xi",  "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
+                         ("Xi",     ("Psi", "Delta", "Pi",  "Phi",   "Sigma", "Psi", "Phi",    "Gamma")),
+                         ("Pi",     ("Psi", "Delta", "Xi",  "Phi",   "Sigma", "Psi", "Phi",    "Gamma")),
+                         ("Sigma",  ("Xi",  "Delta", "Xi",  "Phi",   "Sigma", "Pi",  "Lambda", "Gamma")),
+                         ("Phi",    ("Psi", "Delta", "Psi", "Phi",   "Sigma", "Pi",  "Phi",    "Gamma")),
+                         ("Psi",    ("Psi", "Delta", "Psi", "Phi",   "Sigma", "Psi", "Phi",    "Gamma"))
+                      )}
     return tiles
 
 #### main process ####
@@ -166,9 +202,10 @@ start = time()
 tiles = buildSpectreBase()
 for _ in range(N_ITERATIONS):
     tiles = buildSupertiles(tiles)
-transformation_min = int(np.ceil(transformation_min))
-transformation_max = int(np.floor(transformation_max))
+transformation_min = int(np.floor(transformation_min))
+transformation_max = int(np.ceil(transformation_max))
 time1 = time()-start
+print(f"transformation range is {transformation_min} to {transformation_max}")
 print(f"supertiling loop took {round(time1, 4)} seconds")
 
 ### drawing parameter data
@@ -279,7 +316,7 @@ print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1
 
 # exit(0)
 
-## draw Polygons Svg by matplotlib #####
+# draw Polygons Svg by matplotlib #####
 # import matplotlib.pyplot as plt
 
 # start = time()
@@ -312,3 +349,4 @@ print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1
 # print(f"matplotlib.pyplot total processing time {round(time1+time2+time3, 4)} seconds, {round(1000000*(time1+time2+time3)/num_tiles, 4)} μs/tile")
 
 # plt.show()
+
