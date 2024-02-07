@@ -1,5 +1,6 @@
 ## draw Polygons Svg by drawsvg #####
-from spectre import buildSpectreTiles,get_color_array, SPECTRE_POINTS, Mystic_SPECTRE_POINTS, Edge_a,Edge_b, N_ITERATIONS, get_transformation_min, get_transformation_max
+from spectre import buildSpectreTiles,get_color_array, SPECTRE_POINTS, Mystic_SPECTRE_POINTS, Edge_a,Edge_b, N_ITERATIONS, print_trot_inv_prof
+from spectre import get_transformation_min, get_transformation_max
 from time import time
 import drawsvg
 
@@ -50,5 +51,6 @@ saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles
 svgContens.save_svg(saveFileName)
 time4 = time()-start
 print(f"drowsvg: SVG drawing took {round(time4, 4)} seconds, generated {num_tiles} tiles")
+print_trot_inv_prof()
 print("drowsvg: drawPolygon save to " + saveFileName)
 print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1000000*(time1+time4)/num_tiles, 4)} μs/tile")

@@ -44,15 +44,14 @@ SPECTRE_QUAD = SPECTRE_POINTS[[3,5,7,11],:]
 
 IDENTITY = np.array([[1,0,0],[0,1,0]], 'float32') # == trot(0)
 
-# Rotation matrix
+# Rotation matrix for Affine transform
 trot_memo = {
      0:  np.array([[1.0, 0.0, 0.0],[0.0, 1.0, 0.0]]),
      30: np.array([[np.sqrt(3)/2, -0.5, 0.0], [0.5, np.sqrt(3)/2, 0.0]]),
      60: np.array([[0.5, -np.sqrt(3)/2, 0.0], [np.sqrt(3)/2, 0.5, 0.0]]),
      120: np.array([[-0.5, -np.sqrt(3)/2, 0.0], [np.sqrt(3)/2, -0.5, 0.0]]),
      180: np.array([[-1.0, 0.0, 0.0], [0.0, -1.0, 0.0]]),
-     240:  np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
-    #  -120: np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
+     240: np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
 }
 def trot(degAngle):
     """
@@ -68,13 +67,11 @@ def trot(degAngle):
     return trot_memo[degAngle].copy()
 
 def trot_inv(T):
+    """
+    T: rotation matrix for Affine transform
+    """
     degAngle = int(np.rad2deg(np.arctan2(T[1, 0], T[0, 0])))
-    if T[1, 0] >= 0:
-        return degAngle
-    elif T[0, 0] < 0:
-        return -degAngle
-    else:
-        return 360
+    return degAngle
 
 trot_replace_arr = np.array([-1, -0.8660254037844386, -0.5, 0, 0.5, 0.8660254037844386, 1])
 def trot_refine(trsf):
@@ -286,25 +283,40 @@ COLOR_MAP = {
     "Psi":    np.array((255, 238,   0),'f')/255.
 }
 
+trot_inv_prof = {
+    -120: 0,
+    -60: 0,
+    0: 0,
+    60: 0,
+    120: 0,
+    180: 0,
+    360: 0
+}
+def print_trot_inv_prof():
+    global trot_inv_prof
+    print("transformation rotation profile(angle: count)={")
+    for angle, count in (sorted(trot_inv_prof.items())):
+        print(f"\t{angle}: {count},")
+    print("}")
+    return trot_inv_prof
+
 def get_color_array(tile_transformation, label):
+    global trot_inv_prof
     if (label == 'Gamma2'):
+        trot_inv_prof[360] += 1
         return       [0.25,0.25,0.25]
     else :
+        angle = trot_inv(tile_transformation)
+        trot_inv_prof[angle] += 1
         rgb = {
-                0:    (  0, 0.1,   1),
-                30:   (  0, 0.8, 0.9),
-                60:   (0.4, 0.4, 0.8),
-                120:  (  0, 0.4, 0.6),
-                180:  (  0, 0  , 0.5),
-                240:  (  0, 0.2, 0.3),
-                300:  (  0, 0.5, 0.5), # bay be Invalid
-                360:  (  1, 0.1,   0),
-                -30:  (0.9, 0.8,   0),
-                -60:  (0.8, 0.4, 0.4),
-                -120: (0.6, 0.4,   0),
-                -180: (0.5, 0  ,   0),
-                -240: (0.3, 0.2,   0),
-        }[trot_inv(tile_transformation)]
+                -120: (0.9, 0.8,   0),
+                -60:  (0.9, 0.4, 0.4),
+                0:    (1.0,   0,   0),
+                60:   (0.4, 0.4, 0.9),
+                120:  (  0, 0.8, 0.9),
+                180:  (  0, 0.0, 0.9),
+                360:  (  0,   0, 1.0),
+        }[angle]
         if rgb:
             return np.array(rgb, 'f')
         else:

@@ -1,5 +1,5 @@
 # draw Polygons Svg by matplotlib #####
-from spectre import buildSpectreTiles,get_color_array, SPECTRE_POINTS, Mystic_SPECTRE_POINTS, Edge_a,Edge_b, N_ITERATIONS, transformation_min, transformation_max
+from spectre import buildSpectreTiles,get_color_array, SPECTRE_POINTS, Mystic_SPECTRE_POINTS, Edge_a,Edge_b, N_ITERATIONS, print_trot_inv_prof
 from time import time
 import matplotlib.pyplot as plt
 
@@ -30,6 +30,7 @@ def plotVertices(tile_transformation, label):
 spectreTiles["Delta"].drawPolygon(plotVertices)
 time2 = time()-start
 print(f"matplotlib.pyplot: tile recursion loop took {round(time2, 4)} seconds, generated {num_tiles} tiles")
+print_trot_inv_prof()
 
 start = time()
 saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles}pts.svg"
