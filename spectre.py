@@ -70,7 +70,7 @@ def trot_inv(T):
     """
     T: rotation matrix for Affine transform
     """
-    degAngle = int(np.rad2deg(np.arctan2(T[1, 0], T[0, 0])))
+    degAngle = int(np.round(np.rad2deg(np.arctan2(T[1, 0], T[0, 0]))))
     return degAngle
 
 trot_replace_arr = np.array([-1, -0.8660254037844386, -0.5, 0, 0.5, 0.8660254037844386, 1])
@@ -286,13 +286,19 @@ COLOR_MAP = {
 }
 
 trot_inv_prof = {
+    -150: 0, # Gamma2
     -120: 0,
+    -90: 0, # Gamma2
     -60: 0,
+    -30: 0,  # Gamma2
     0: 0,
+    30: 0,  # Gamma2
     60: 0,
+    90: 0, # Gamma2
     120: 0,
+    150: 0,  # Gamma2
     180: 0,
-    360: 0
+    360: 0 # Gamma2 total
 }
 def print_trot_inv_prof():
     global trot_inv_prof
@@ -304,12 +310,12 @@ def print_trot_inv_prof():
 
 def get_color_array(tile_transformation, label):
     global trot_inv_prof
+    angle = trot_inv(tile_transformation)
+    trot_inv_prof[angle] += 1
     if (label == 'Gamma2'):
         trot_inv_prof[360] += 1
         return       [0.25,0.25,0.25]
     else :
-        angle = trot_inv(tile_transformation)
-        trot_inv_prof[angle] += 1
         rgb = {
                 -120: (0.9, 0.8,   0),
                 -60:  (0.9, 0.4, 0.4),
