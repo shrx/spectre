@@ -4,8 +4,8 @@ import numpy as np
 #* increase this number for larger tilings.
 N_ITERATIONS = 3
 #* shape Edge_ration tile(Edge_a, Edge_b)
-Edge_a = 20.0 / (np.sqrt(3) + 1.0)
-Edge_b = 20.0 - Edge_a
+Edge_a = 10.0 # 20.0 / (np.sqrt(3) + 1.0)
+Edge_b = 10.0 # 20.0 - Edge_a
 ## end of configilation.
 
 TILE_NAMES = ["Gamma", "Delta", "Theta", "Lambda", "Xi", "Pi", "Sigma", "Phi", "Psi"]
@@ -128,14 +128,16 @@ def buildSpectreBase():
     tiles = {label: (Tile(label) ) for label in TILE_NAMES if label != "Gamma"}
     # special rule for Mystic == Gamma == Gamma1 + Gamma2
     tiles["Gamma"] = MetaTile(tiles=[Tile("Gamma1"),
-                                     Tile("Gamma2")],
-                                     transformations=[
+                                     Tile("Gamma2")
+                              ],
+                              transformations=[
                                          IDENTITY.copy(),
                                          mul(np.array([
                                              [1,0,SPECTRE_POINTS[8,0]],
                                              [0,1,SPECTRE_POINTS[8,1]]
-                                         ]), trot(30))],
-                                     quad=SPECTRE_QUAD.copy())
+                                         ]), trot(30))
+                              ],
+                              quad=SPECTRE_QUAD.copy())
     return tiles
 
 transformation_min = np.inf
