@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 import numpy as np
-from time import time
-
 ## configlation
 #* increase this number for larger tilings.
-N_ITERATIONS = 4
+N_ITERATIONS = 3
 #* shape Edge_ration tile(Edge_a, Edge_b)
-Edge_a = 10.0 # 20.0 / (np.sqrt(3) + 1.0)
-Edge_b = 10.0 # 20.0 - Edge_a
+Edge_a = 20.0 / (np.sqrt(3) + 1.0)
+Edge_b = 20.0 - Edge_a
 ## end of configilation.
 
 TILE_NAMES = ["Gamma", "Delta", "Theta", "Lambda", "Xi", "Pi", "Sigma", "Phi", "Psi"]
@@ -44,7 +42,6 @@ SPECTRE_POINTS = get_spectre_points(Edge_a, Edge_b) # tile(Edge_a, Edge_b)
 Mystic_SPECTRE_POINTS = get_spectre_points(Edge_b, Edge_a) # tile(Edge_b, Edge_a)
 SPECTRE_QUAD = SPECTRE_POINTS[[3,5,7,11],:]
 
-PI = np.pi
 IDENTITY = np.array([[1,0,0],[0,1,0]], 'float32') # == trot(0)
 
 # Rotation matrix
@@ -55,7 +52,7 @@ trot_memo = {
      120: np.array([[-0.5, -np.sqrt(3)/2, 0.0], [np.sqrt(3)/2, -0.5, 0.0]]),
      180: np.array([[-1.0, 0.0, 0.0], [0.0, -1.0, 0.0]]),
      240:  np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
-     -120: np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
+    #  -120: np.array([[-0.5, np.sqrt(3)/2, 0.0], [-np.sqrt(3)/2, -0.5, 0.0]]),
 }
 def trot(degAngle):
     """
@@ -69,6 +66,15 @@ def trot(degAngle):
         trot_memo[degAngle] = np.array([[c, -s, 0],[s, c, 0]])
         print(f"trot_memo[{degAngle}]={trot_memo[degAngle]}")
     return trot_memo[degAngle].copy()
+
+def trot_inv(T):
+    degAngle = int(np.rad2deg(np.arctan2(T[1, 0], T[0, 0])))
+    if T[1, 0] >= 0:
+        return degAngle
+    elif T[0, 0] < 0:
+        return -degAngle
+    else:
+        return 360
 
 trot_replace_arr = np.array([-1, -0.8660254037844386, -0.5, 0, 0.5, 0.8660254037844386, 1])
 def trot_refine(trsf):
@@ -135,8 +141,15 @@ def buildSpectreBase():
                                      quad=SPECTRE_QUAD.copy())
     return tiles
 
-transformation_min = 0.0
-transformation_max = 0.0
+transformation_min = np.inf
+transformation_max = -np.inf
+def get_transformation_min():
+    global transformation_min
+    return transformation_min
+def get_transformation_max():
+    global transformation_max
+    return transformation_max
+
 def buildSupertiles(input_tiles):
     """
     iteratively build on current system of tiles
@@ -146,9 +159,9 @@ def buildSupertiles(input_tiles):
     # list of transformation matrices for placing tiles within supertiles.
     quad = input_tiles["Delta"].quad
 
-    transformations = [IDENTITY.copy()]
     total_angle = 0
-    rotation = IDENTITY.copy() # trot(total_angle)
+    rotation =  trot(total_angle) # IDENTITY.copy() #
+    transformations =  [rotation.copy()] # [IDENTITY.copy()]
     transformed_quad = quad
     for _angle, _from, _to in ((  60, 3, 1),
                                (   0, 2, 0),
@@ -165,11 +178,11 @@ def buildSupertiles(input_tiles):
         ttrans[:,2] = transPt(transformations[-1], quad[_from]) - transformed_quad[_to,:]
         transformations.append(mul(ttrans, rotation))
 
-    R = np.array([[-1,0,0],[ 0,1,0]], 'float32')
-    transformations = [ trot_refine(mul(R, trsf)) for trsf in transformations ]
+    R = np.array([[-1.0, 0.0, 0.0],[0.0, 1.0, 0.0]]) # @TODO: Not trot(180).  Instead of rotating 180 degrees, get a mirror image.
+    transformations = [trot_refine(mul(R, trsf)) for trsf in transformations ] # @TODO Note that mul(trsf, R) is not commutible
     global transformation_min, transformation_max
-    transformation_min = np.min(transformations)
-    transformation_max = np.max(transformations)
+    transformation_min = min(transformation_min, np.min(transformations))
+    transformation_max = max(transformation_max, np.max(transformations))
 
     # Now build the actual supertiles, labeling appropriately.
     super_quad =  np.array([
@@ -196,17 +209,21 @@ def buildSupertiles(input_tiles):
     return tiles
 
 #### main process ####
-# global N_ITERATIONS ,Edge_a,Edge_b
+def buildSpectreTiles(n_ITERATIONS,edge_a,edge_b):
+    global SPECTRE_POINTS, Mystic_SPECTRE_POINTS, SPECTRE_QUAD
 
-start = time()
-tiles = buildSpectreBase()
-for _ in range(N_ITERATIONS):
-    tiles = buildSupertiles(tiles)
-transformation_min = int(np.floor(transformation_min))
-transformation_max = int(np.ceil(transformation_max))
-time1 = time()-start
-print(f"transformation range is {transformation_min} to {transformation_max}")
-print(f"supertiling loop took {round(time1, 4)} seconds")
+    SPECTRE_POINTS = get_spectre_points(edge_a, edge_b) # tile(Edge_a, Edge_b)
+    Mystic_SPECTRE_POINTS = get_spectre_points(edge_b, edge_a) # tile(Edge_b, Edge_a)
+    SPECTRE_QUAD = SPECTRE_POINTS[[3,5,7,11],:]
+    tiles = buildSpectreBase()
+    for _ in range(n_ITERATIONS):
+        tiles = buildSupertiles(tiles)
+
+    global transformation_min, transformation_max
+    transformation_min = int(np.floor(transformation_min))
+    transformation_max = int(np.ceil(transformation_max))
+    return tiles
+
 
 ### drawing parameter data
 # Color map from Figure 5.3
@@ -268,85 +285,29 @@ COLOR_MAP = {
     "Phi":    np.array((255, 141,   0),'f')/255.,
     "Psi":    np.array((255, 238,   0),'f')/255.
 }
-## draw Polygons Svg by drawsvg #####
-import drawsvg
 
-start = time()
-
-def flattenPts(lst): # drowsvg
-    return [item for sublist in lst for item in sublist] # drowsvg
-
-SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in SPECTRE_POINTS]), stroke="black", stroke_width=0.5,close=True) # drowsvg
-Mystic_SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in Mystic_SPECTRE_POINTS]), stroke="black",   stroke_width=0.5, close=True) # drowsvg
-
-svgContens = drawsvg.Drawing(transformation_max - transformation_min,
-                    transformation_max - transformation_min,
-                     origin="center") # @TODO: ajust to polygons X-Y min and max. 
-num_tiles = 0 # drowswvg
-
-def drawPolygon2Svg(T, label): #drowsvg
-    """
-    T: transformation matrix
-    label: label of shape type
-    """
-    global num_tiles,svgContens
-    num_tiles += 1
-
-    fill = f"rgb({int(round(COLOR_MAP[label][0]* 255, 0))}, {int(round(COLOR_MAP[label][1]* 255,0))}, {int(round(COLOR_MAP[label][2]* 255,0))})"
-    stroke_f = "gray" # tile stroke color
-    stroke_w = 0.1 if (fill[0] != 0) | (fill[1] != 0) | (fill[2] != 0) else 0 # tile stroke width
-    shape = SPECTRE_SHAPE if label != "Gamma2" else Mystic_SPECTRE_SHAPE  # geometric points used.
-    # print(f"transform-matrix,{T[0,0]},{T[1,0]},{T[0,1]},{T[1,1]},{T[0,2]},{T[1,2]}")
-
-    svgContens.append(drawsvg.Use(
-        shape,
-        0, 0,
-        transform=f"matrix({T[0,0]} {T[1,0]} {T[0,1]} {T[1,1]} {T[0,2]} {T[1,2]})",
-        fill=fill,
-        stroke=stroke_f,
-        stroke_width=stroke_w))
-
-tiles["Delta"].drawPolygon(drawPolygon2Svg) # updates num_tiles
-saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles}useRef.svg"
-svgContens.save_svg(saveFileName)
-time4 = time()-start
-print(f"drowsvg: SVG drawing took {round(time4, 4)} seconds, generated {num_tiles} tiles")
-print("drowsvg: drawPolygon save to " + saveFileName)
-print(f"drowsvg: total processing time {round(time1+time4, 4)} seconds, {round(1000000*(time1+time4)/num_tiles, 4)} μs/tile")
-
-# exit(0)
-
-# draw Polygons Svg by matplotlib #####
-# import matplotlib.pyplot as plt
-
-# start = time()
-# plt.figure(figsize=(8, 8))
-# plt.axis('equal')
-
-# num_tiles = 0
-# def plotVertices(tile_transformation, label):
-#     """
-#     T: transformation matrix
-#     label: label of shape type
-#     """
-#     global num_tiles
-#     num_tiles += 1
-#     vertices = (SPECTRE_POINTS if label != "Gamma2" else Mystic_SPECTRE_POINTS).dot(tile_transformation[:,:2].T) + tile_transformation[:,2]
-#     # plt.text((vertices[1,0] + vertices[7,0])/2, (vertices[1,1] + vertices[7,1])/2, label, fontsize=8, color='gray')
-#     plt.fill(vertices[:,0],vertices[:,1],facecolor=COLOR_MAP[label])
-#     plt.plot(vertices[:,0],vertices[:,1],color='gray',linewidth=0.2)
-
-# tiles["Delta"].drawPolygon(plotVertices)
-# time2 = time()-start
-# print(f"matplotlib.pyplot: tile recursion loop took {round(time2, 4)} seconds, generated {num_tiles} tiles")
-
-# start = time()
-# saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles}pts.svg"
-# print("matplotlib.pyplot: file save to " + saveFileName)
-# plt.savefig(saveFileName)
-# time3 = time()-start
-# print(f"matplotlib.pyplot SVG drawing took {round(time3, 4)} seconds")
-# print(f"matplotlib.pyplot total processing time {round(time1+time2+time3, 4)} seconds, {round(1000000*(time1+time2+time3)/num_tiles, 4)} μs/tile")
-
-# plt.show()
+def get_color_array(tile_transformation, label):
+    if (label == 'Gamma2'):
+        return       [0.25,0.25,0.25]
+    else :
+        rgb = {
+                0:    (  0, 0.1,   1),
+                30:   (  0, 0.8, 0.9),
+                60:   (0.4, 0.4, 0.8),
+                120:  (  0, 0.4, 0.6),
+                180:  (  0, 0  , 0.5),
+                240:  (  0, 0.2, 0.3),
+                300:  (  0, 0.5, 0.5), # bay be Invalid
+                360:  (  1, 0.1,   0),
+                -30:  (0.9, 0.8,   0),
+                -60:  (0.8, 0.4, 0.4),
+                -120: (0.6, 0.4,   0),
+                -180: (0.5, 0  ,   0),
+                -240: (0.3, 0.2,   0),
+        }[trot_inv(tile_transformation)]
+        if rgb:
+            return np.array(rgb, 'f')
+        else:
+            print(f"Inalid color {rgb} {label}, {tile_transformation}")
+    return COLOR_MAP[label]
 
