@@ -19,10 +19,11 @@ def flattenPts(lst): # drowsvg
 SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in SPECTRE_POINTS]), stroke="black", stroke_width=0.5,close=True) # drowsvg
 Mystic_SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in Mystic_SPECTRE_POINTS]), stroke="black",   stroke_width=0.5, close=True) # drowsvg
 
-svgContens = drawsvg.Drawing(transformation_max - transformation_min,
-                    transformation_max - transformation_min,
-                     origin="center") # @TODO: ajust to polygons X-Y min and max. 
-
+viewWidth = transformation_max - transformation_min
+svgContens = drawsvg.Drawing(viewWidth,
+                    viewWidth,
+                    ) # @TODO: ajust to polygons X-Y min and max. 
+svgContens.view_box = (transformation_min,transformation_min,viewWidth,viewWidth)
 num_tiles = 0 # drowswvg
 def drawPolygon2Svg(T, label): #drowsvg
     """
