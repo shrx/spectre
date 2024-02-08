@@ -1,3 +1,5 @@
 __pycache__
 spectre*.svg
+spectre*.png
+spectre*.vs*
 !spectre_tile7.3-12.7_3-559useRef.svg

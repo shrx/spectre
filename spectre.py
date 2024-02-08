@@ -70,8 +70,24 @@ def trot_inv(T):
     """
     T: rotation matrix for Affine transform
     """
-    degAngle = int(np.round(np.rad2deg(np.arctan2(T[1, 0], T[0, 0]))))
-    return degAngle
+    degAngle1 = int(np.round(np.rad2deg(np.arctan2(T[1, 0], T[0, 0]))))
+    degAngle2 = int(np.round(np.rad2deg(np.arctan2(-T[0, 1], T[1, 1]))))
+    if (degAngle1 == degAngle2):
+        scaleY = 1
+    elif (np.abs(degAngle1) == np.abs(degAngle2)):
+        scaleY = -1
+    elif (degAngle1 == (-degAngle2)):
+        scaleY = 1
+    elif (degAngle1 == (180 - degAngle2)) or (degAngle2 == (180 - degAngle1)):
+        scaleY = -1
+    elif (degAngle1 == (degAngle2 - 180)) or (degAngle2 == (degAngle1 - 180)):
+        scaleY = -1
+    else:
+        scaleY = -1
+        print(f"ValueError at trot_inv: degAngle1={degAngle1}, degAngle2={degAngle2} T={T}")
+        # raise ValueError("trot_inv: degAngle1.abs != degAngle2.abs")
+        
+    return (degAngle1, scaleY)
 
 trot_replace_arr = np.array([-1, -0.8660254037844386, -0.5, 0, 0.5, 0.8660254037844386, 1])
 def trot_refine(trsf):
@@ -179,6 +195,7 @@ def buildSupertiles(input_tiles):
 
     R = np.array([[-1.0, 0.0, 0.0],[0.0, 1.0, 0.0]]) # @TODO: Not trot(180).  Instead of rotating 180 degrees, get a mirror image.
     transformations = [trot_refine(mul(R, trsf)) for trsf in transformations ] # @TODO Note that mul(trsf, R) is not commutible
+    # @TODO: TOBE auto update svg transform.translate scaleY. failed by (SvgContens_drowSvg_transform_scaleY=spectreTiles["Delta"].transformations[0][0,0]) 
     global transformation_min, transformation_max
     transformation_min = min(transformation_min, np.min(transformations))
     transformation_max = max(transformation_max, np.max(transformations))
@@ -310,7 +327,7 @@ def print_trot_inv_prof():
 
 def get_color_array(tile_transformation, label):
     global trot_inv_prof
-    angle = trot_inv(tile_transformation)
+    angle, _scale = trot_inv(tile_transformation)
     trot_inv_prof[angle] += 1
     if (label == 'Gamma2'):
         trot_inv_prof[360] += 1
