@@ -1,16 +1,14 @@
 ## draw Polygons Svg by drawsvg #####
-from spectre import buildSpectreTiles,get_color_array, SPECTRE_POINTS, Mystic_SPECTRE_POINTS, Edge_a,Edge_b, N_ITERATIONS, print_trot_inv_prof, trot_inv
-from spectre import get_transformation_min, get_transformation_max
+from spectre import buildSpectreTiles,get_color_array,get_transformation_range, SPECTRE_POINTS, Mystic_SPECTRE_POINTS, Edge_a,Edge_b, N_ITERATIONS, print_trot_inv_prof, trot_inv
 from time import time
 import drawsvg
 
 start = time()
 spectreTiles = buildSpectreTiles(N_ITERATIONS,Edge_a,Edge_b)
+transformation_min_X, transformation_min_Y, transformation_max_X, transformation_max_Y = get_transformation_range()
 time1 = time()-start
 print(f"supertiling loop took {round(time1, 4)} seconds")
-transformation_min = get_transformation_min()
-transformation_max = get_transformation_max()
-print(f"transformation range is {transformation_min} to {transformation_max}")
+print(f"transformation range (min_X, min_Y, max_X, max_Y) is {transformation_min_X}, {transformation_min_Y}, {transformation_max_X}, {transformation_max_Y}") 
 
 start = time()
 def flattenPts(lst): # drowsvg
@@ -19,12 +17,12 @@ def flattenPts(lst): # drowsvg
 SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in SPECTRE_POINTS]), stroke="black", stroke_width=0.5,close=True) # drowsvg
 Mystic_SPECTRE_SHAPE = drawsvg.Lines(*flattenPts([p for p in Mystic_SPECTRE_POINTS]), stroke="black",   stroke_width=0.5, close=True) # drowsvg
 
-viewWidth = transformation_max - transformation_min
-svgContens = drawsvg.Drawing(viewWidth,
-                    viewWidth,
-                    ) # @TODO: ajust to polygons X-Y min and max. 
-svgContens.view_box = (transformation_min,transformation_min,viewWidth,viewWidth)
-SvgContens_drowSvg_transform_scaleY = 0 # spectreTiles["Delta"].transformations[0][0,0]
+
+viewWidth = transformation_max_X - transformation_min_X
+viewHeight = transformation_max_Y - transformation_min_Y
+svgContens = drawsvg.Drawing(viewWidth, viewHeight) # @TODO: ajust to polygons X-Y min and max. 
+svgContens.view_box = (transformation_min_X , transformation_min_Y,viewWidth, viewHeight)
+SvgContens_drowSvg_transform_scaleY = svgContens_drowSvg_transform_scaleY = 1 if N_ITERATIONS % 2 == 0 else -1
 num_tiles = 0 # drowswvg
 def drawPolygon2Svg(T, label): #drowsvg
     """
@@ -35,12 +33,7 @@ def drawPolygon2Svg(T, label): #drowsvg
     num_tiles += 1
     color_array = get_color_array(T, label) # drowsvg
     degAngle, _scaleY = trot_inv(T) 
-    # @TODO: It depends on the initial data being one of the following
-    #         [[-1. 0. 0.][ 0. 1. 0.]] [[1. 0. 0.] [0. 1. 0.]] first 
-    # @TODO: However, it is not good to depend on the order of data . repare trot_inv(T) .
-    if SvgContens_drowSvg_transform_scaleY == 0:
-        SvgContens_drowSvg_transform_scaleY = 1 if T[0,0] > 0 else (-1 if T[0,0] < 0 else 0)
-    
+    transform=f"translate({T[0,2]},{T[1,2]}) rotate({degAngle}) scale(1,{SvgContens_drowSvg_transform_scaleY})"
     fill = f"rgb({int(round(color_array[0]* 255, 0))}, {int(round(color_array[1]* 255,0))}, {int(round(color_array[2]* 255,0))})"
     stroke_f = "gray" # tile stroke color
     stroke_w = 0.1 if (fill[0] != 0) | (fill[1] != 0) | (fill[2] != 0) else 0 # tile stroke width
@@ -50,13 +43,18 @@ def drawPolygon2Svg(T, label): #drowsvg
     svgContens.append(drawsvg.Use(
         shape,
         0, 0,
-        transform=f"translate({T[0,2]},{T[1,2]}) rotate({degAngle}) scale(1,{SvgContens_drowSvg_transform_scaleY})",
+        transform=transform,
         # transform=f"matrix({T[0,0]} {T[1,0]} {T[0,1]} {T[1,1]} {T[0,2]} {T[1,2]})",
         fill=fill,
+        fill_opacity= 0.6, 
         stroke=stroke_f,
         stroke_width=stroke_w))
+    # svgContens.append(drawsvg.Text(label, 8, Edge_a, Edge_b,
+    #     transform=transform,
+    #     color="gray"
+    # ))
 
-spectreTiles["Delta"].drawPolygon(drawPolygon2Svg) # updates num_tiles
+spectreTiles["Delta"].forEachTile(drawPolygon2Svg) # updates num_tiles
 saveFileName = f"spectre_tile{Edge_a:.1f}-{Edge_b:.1f}_{N_ITERATIONS}-{num_tiles}useRef.svg"
 svgContens.save_svg(saveFileName)
 time4 = time()-start

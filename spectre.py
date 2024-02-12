@@ -4,8 +4,8 @@ import numpy as np
 #* increase this number for larger tilings.
 N_ITERATIONS = 3
 #* shape Edge_ration tile(Edge_a, Edge_b)
-Edge_a = 10.0 # 20.0 / (np.sqrt(3) + 1.0)
-Edge_b = 10.0 # 20.0 - Edge_a
+Edge_a = 20.0 / (np.sqrt(3) + 1.0)
+Edge_b = 20.0 - Edge_a
 ## end of configilation.
 
 TILE_NAMES = ["Gamma", "Delta", "Theta", "Lambda", "Xi", "Pi", "Sigma", "Phi", "Psi"]
@@ -71,11 +71,11 @@ def trot_inv(T):
     T: rotation matrix for Affine transform
     """
     degAngle1 = int(np.round(np.rad2deg(np.arctan2(T[1, 0], T[0, 0]))))
+    if degAngle1 == -180:
+        degAngle1 = 180
     degAngle2 = int(np.round(np.rad2deg(np.arctan2(-T[0, 1], T[1, 1]))))
-    if (degAngle1 == degAngle2):
+    if (degAngle1 == degAngle2): # self validate angle
         scaleY = 1
-    elif (np.abs(degAngle1) == np.abs(degAngle2)):
-        scaleY = -1
     elif (degAngle1 == (-degAngle2)):
         scaleY = 1
     elif (degAngle1 == (180 - degAngle2)) or (degAngle2 == (180 - degAngle1)):
@@ -89,18 +89,11 @@ def trot_inv(T):
         
     return (degAngle1, scaleY)
 
-trot_replace_arr = np.array([-1, -0.8660254037844386, -0.5, 0, 0.5, 0.8660254037844386, 1])
-def trot_refine(trsf):
-    """
-    trsf: transformation matrix
-    """
-    idx = np.abs(np.subtract.outer(trsf[:2, :2].flatten(), trot_replace_arr)).argmin(1)
-    trsf[:2, :2] = trot_replace_arr[idx].reshape(trsf[:2, :2].shape)
-    return trsf
-
 # Matrix * point
 def transPt(trsf, quad):
-    return  (trsf[:,:2].dot(quad) + trsf[:,2])
+    trPt = (trsf[:,:2].dot(quad) + trsf[:,2])
+    # print(f"at transPt={trPt}")
+    return trPt
 
 # Matrix * point
 def mul(A, B):
@@ -118,8 +111,9 @@ class Tile:
         self.label = label
         self.quad = SPECTRE_QUAD
 
-    def drawPolygon(self, drawer, tile_transformation=IDENTITY):
-        return drawer(tile_transformation, self.label)
+    def forEachTile(self, doProc, tile_transformation=IDENTITY):
+        # print(f"at Tile.drawPolygon {self.label} angle={trot_inv(tile_transformation)} tile_transformation={tile_transformation}")
+        return doProc(tile_transformation, self.label)
 
 class MetaTile:
     def __init__(self, tiles=[], transformations=[], quad=SPECTRE_QUAD):
@@ -132,13 +126,13 @@ class MetaTile:
         self.transformations = transformations
         self.quad = quad
 
-    def drawPolygon(self, drawer, transformation=IDENTITY):
+    def forEachTile(self, doProc, transformation=IDENTITY):
         """
         recursively expand MetaTiles down to Tiles and draw those
         """
         # TODO: parallelize?
         for tile, trsf in zip(self.tiles, self.transformations):
-           tile.drawPolygon(drawer,  trot_refine(mul(transformation, trsf)))
+           tile.forEachTile(doProc, (mul(transformation, trsf)))
                             
 def buildSpectreBase():
     tiles = {label: (Tile(label) ) for label in TILE_NAMES if label != "Gamma"}
@@ -154,17 +148,13 @@ def buildSpectreBase():
                                          ]), trot(30))
                               ],
                               quad=SPECTRE_QUAD.copy())
+    # print(f"at buildSpectreBase: tiles[Gamma]={tiles['Gamma'].transformations}")
     return tiles
 
-transformation_min = np.inf
-transformation_max = -np.inf
-def get_transformation_min():
-    global transformation_min
-    return transformation_min
-def get_transformation_max():
-    global transformation_max
-    return transformation_max
-
+def get_transformation_range():
+    global transformation_min_X,transformation_min_Y,transformation_max_X,transformation_max_Y
+    return (transformation_min_X,transformation_min_Y,transformation_max_X,transformation_max_Y)
+    
 def buildSupertiles(input_tiles):
     """
     iteratively build on current system of tiles
@@ -188,18 +178,16 @@ def buildSupertiles(input_tiles):
         if _angle != 0:
             total_angle += _angle
             rotation = trot(total_angle)
-            transformed_quad = quad.dot(rotation[:,:2].T) # + trot[:,2]
+            transformed_quad = np.array([transPt(rotation, quad1) for quad1 in quad]) ### quad.dot(rotation[:,:2].T) # + trot[:,2]
         ttrans = IDENTITY.copy()
         ttrans[:,2] = transPt(transformations[-1], quad[_from]) - transformed_quad[_to,:]
         transformations.append(mul(ttrans, rotation))
 
     R = np.array([[-1.0, 0.0, 0.0],[0.0, 1.0, 0.0]]) # @TODO: Not trot(180).  Instead of rotating 180 degrees, get a mirror image.
-    transformations = [trot_refine(mul(R, trsf)) for trsf in transformations ] # @TODO Note that mul(trsf, R) is not commutible
+    transformations = [(mul(R, trsf)) for trsf in transformations ] # @TODO Note that mul(trsf, R) is not commutible
     # @TODO: TOBE auto update svg transform.translate scaleY. failed by (SvgContens_drowSvg_transform_scaleY=spectreTiles["Delta"].transformations[0][0,0]) 
-    global transformation_min, transformation_max
-    transformation_min = min(transformation_min, np.min(transformations))
-    transformation_max = max(transformation_max, np.max(transformations))
 
+    # print(f"transformations={[transformations[i] for i in [6,5,3,0]]}")
     # Now build the actual supertiles, labeling appropriately.
     super_quad =  np.array([
         transPt(transformations[6], quad[2]),
@@ -207,6 +195,7 @@ def buildSupertiles(input_tiles):
         transPt(transformations[3], quad[2]),
         transPt(transformations[0], quad[1]) 
     ])
+    # print(f"super_quad={super_quad}")
 
     tiles = {label: MetaTile(tiles=[input_tiles[subst] for subst in substitutions if subst],
                      transformations=[trsf for subst, trsf in zip(substitutions, transformations) if subst],
@@ -224,6 +213,22 @@ def buildSupertiles(input_tiles):
                       )}
     return tiles
 
+transformation_min_X = np.inf
+transformation_min_Y = np.inf
+transformation_max_X = -np.inf
+transformation_max_Y = -np.inf
+def update_transformation_range(T, _label): # drowsvg
+    """
+    T: transformation matrix
+    label: unused label string
+    """
+    global transformation_min_X, transformation_min_Y, transformation_max_X, transformation_max_Y
+    transformation_min_X = min(transformation_min_X, T[0,2]) # drowsvg
+    transformation_min_Y = min(transformation_min_Y, T[1,2]) # drowsvg
+    transformation_max_X = max(transformation_max_X, T[0,2]) # drowsvg
+    transformation_max_Y = max(transformation_max_Y, T[1,2]) # drowsvg
+    return
+
 #### main process ####
 def buildSpectreTiles(n_ITERATIONS,edge_a,edge_b):
     global SPECTRE_POINTS, Mystic_SPECTRE_POINTS, SPECTRE_QUAD
@@ -235,9 +240,14 @@ def buildSpectreTiles(n_ITERATIONS,edge_a,edge_b):
     for _ in range(n_ITERATIONS):
         tiles = buildSupertiles(tiles)
 
-    global transformation_min, transformation_max
-    transformation_min = int(np.floor(transformation_min))
-    transformation_max = int(np.ceil(transformation_max))
+    tiles["Delta"].forEachTile(update_transformation_range) # scan all Tile
+
+    global transformation_min_X, transformation_min_Y, transformation_max_X, transformation_max_Y
+    transformation_min_X = int(np.floor(transformation_min_X - Edge_a * 3 - Edge_b * 3))
+    transformation_min_Y = int(np.floor(transformation_min_Y - Edge_a * 3 - Edge_b * 3))
+    transformation_max_X = int(np.ceil(transformation_max_X + Edge_a * 3 + Edge_b * 3))
+    transformation_max_Y = int(np.ceil(transformation_max_Y + Edge_a * 3 + Edge_b * 3))
+
     return tiles
 
 
@@ -303,6 +313,7 @@ COLOR_MAP = {
 }
 
 trot_inv_prof = {
+    # -180: 0, # to be 0, becaluse angle -180=>180
     -150: 0, # Gamma2
     -120: 0,
     -90: 0, # Gamma2
@@ -331,16 +342,16 @@ def get_color_array(tile_transformation, label):
     trot_inv_prof[angle] += 1
     if (label == 'Gamma2'):
         trot_inv_prof[360] += 1
-        return       [0.25,0.25,0.25]
+        return np.array([0.25,0.25,0.25])
     else :
         rgb = {
+                # -180: (  0,   0, 1.0), # sangle -180 == 180
                 -120: (0.9, 0.8,   0),
                 -60:  (0.9, 0.4, 0.4),
                 0:    (1.0,   0,   0),
                 60:   (0.4, 0.4, 0.9),
                 120:  (  0, 0.8, 0.9),
-                180:  (  0, 0.0, 0.9),
-                360:  (  0,   0, 1.0),
+                180:  (  0,   0, 1.0)
         }[angle]
         if rgb:
             return np.array(rgb, 'f')

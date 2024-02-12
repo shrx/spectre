@@ -27,7 +27,7 @@ def plotVertices(tile_transformation, label):
     plt.fill(vertices[:,0],vertices[:,1],facecolor=color_array)
     plt.plot(vertices[:,0],vertices[:,1],color='gray',linewidth=0.2)
 
-spectreTiles["Delta"].drawPolygon(plotVertices)
+spectreTiles["Delta"].forEachTile(plotVertices)
 time2 = time()-start
 print(f"matplotlib.pyplot: tile recursion loop took {round(time2, 4)} seconds, generated {num_tiles} tiles")
 print_trot_inv_prof()
