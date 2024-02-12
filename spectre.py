@@ -4,8 +4,8 @@ import numpy as np
 #* increase this number for larger tilings.
 N_ITERATIONS = 3
 #* shape Edge_ration tile(Edge_a, Edge_b)
-Edge_a = 20.0 / (np.sqrt(3) + 1.0)
-Edge_b = 20.0 - Edge_a
+Edge_a = 10.0 # 20.0 / (np.sqrt(3) + 1.0)
+Edge_b = 10.0 # 20.0 - Edge_a
 ## end of configilation.
 
 TILE_NAMES = ["Gamma", "Delta", "Theta", "Lambda", "Xi", "Pi", "Sigma", "Phi", "Psi"]
